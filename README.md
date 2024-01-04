@@ -30,7 +30,7 @@ public static class Calculator
                if (account.Balance < 1000)
                    account.Interest -= account.Balance * 0.2;
               
-               if (account.Balance < >= 1000)
+               if (account.Balance >= 1000)
                    account.Interest -= account.Balance * 0.4;
        } 
        else if(account.Type == "Зарплатный") 
